@@ -4,12 +4,15 @@
     box-sizing: border-box;
     margin: 0;
 }
+
 .form-container{
     background: url(./images/pattern-bg.png) no-repeat 100% 100% / cover;
     padding: 2rem;
     min-height: 200px;
 
 }
+
+
 .title{
   color: white;
 }
@@ -31,15 +34,19 @@
    right: 0;
    cursor: pointer;
 }
+
 .form-element{
     position: relative;
     max-width: 370px;
-    
-}
+    }
+
+
 /********alt-taraf********/
 
+
 .main{
- display: flex;
+
+    display: flex;
  flex-wrap: wrap;
  gap: 1rem;   
 justify-content: center;
@@ -57,6 +64,7 @@ position: relative;
 /* overflow: hidden */
 
 }
+
 .info-block{
     border-right: 2px solid rgba(128, 128, 128, 0.515);
     min-height: 60px;
@@ -70,17 +78,21 @@ position: relative;
 .info-blocks{
     border-right: none;
 }
+
 h4{
     font-size: 11px !important;
     color: hsl(0, 0%, 59%);
    text-transform: uppercase;
 }
 
+
 #current_ip{
     font-weight: 500;
     color: #2b2b2b;
     font-size: 16px;
 }
+
+
 /***********map******************/
 
 .map{
